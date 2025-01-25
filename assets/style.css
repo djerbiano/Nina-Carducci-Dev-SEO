@@ -40,6 +40,8 @@ body {
 
 .social-link img {
 	width: 20px;
+	/*correction*/
+	height: 20px;
 }
 
 #about {
@@ -70,6 +72,7 @@ body {
 .picture img {
 	width: 100%;
 
+
 }
 #about-me {
 	flex: 2
@@ -84,6 +87,7 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -96,12 +100,18 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: 1.75rem;
+}
+.titleFormulaire{
+	font-size: 1.75rem;
 }
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	/* color: #fff; */
+	/*correction*/
+	color: #000000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
