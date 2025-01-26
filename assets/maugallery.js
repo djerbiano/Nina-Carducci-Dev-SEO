@@ -56,6 +56,13 @@
         return;
       }
     });
+    //correction
+    // click sur name logo pour retourner en haut
+    $(".name").on("click", function () {
+      if ($(this).text() === "Nina Carducci") {
+        window.scrollTo(0, 0);
+      }
+    });
 
     $(".gallery").on("click", ".nav-link", $.fn.mauGallery.methods.filterByTag);
     $(".gallery").on("click", ".mg-prev", () =>
@@ -197,6 +204,7 @@
       }" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
+
                         <div class="modal-body">
                             ${
                               navigation
