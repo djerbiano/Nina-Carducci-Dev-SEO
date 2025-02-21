@@ -39,12 +39,15 @@ body {
   color: #000;
 }
 
+.visually-hidden {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .social-link img {
   width: 20px;
   /*correction*/
   height: 20px;
 }
-
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -93,9 +96,6 @@ body {
   font-size: 14px;
 }
 
-/* #gallery {
-		min-height: 100vh; 
-} */
 .title {
   text-align: center;
   padding-block: 2em;
@@ -252,7 +252,6 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 1180px) {
-
   .picture {
     flex: 2;
   }
@@ -268,7 +267,6 @@ input[type="submit"] {
   #about-me p {
     width: 100%;
   }
-
 }
 
 @media all and (max-width: 1000px) {
@@ -327,7 +325,6 @@ input[type="submit"] {
     right: 0;
     z-index: -1;
   }
-
 }
 
 @media all and (max-width: 650px) {
@@ -366,5 +363,4 @@ input[type="submit"] {
   .picture {
     width: 80%;
   }
- 
 }
